@@ -44,5 +44,3 @@ Link to dataset - https://www.kaggle.com/datasets/ayuraj/american-sign-language-
 - The ResNet50-based model achieved an accuracy of approximately 89% on the test set.
 - Sample predictions can be tested using the provided image file.
 
-# asl_alphabet_detection
-This project leverages Computer Vision to recognise the American Sign Language alphabet, making everyday interactions more accessible.

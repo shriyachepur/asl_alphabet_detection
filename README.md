@@ -7,8 +7,6 @@ Link to dataset - https://www.kaggle.com/datasets/ayuraj/american-sign-language-
 - `asl`: Directory containing the ASL alphabet images categorized by their respective alphabets.
 - `Resnet.ipynb`: Jupyter Notebook for ResNet model training and testing
 - `CNN.ipynb`: Jupyter Notebook for CNN model training and testing
-- `cnn_model.h5`: Saved model file of the CNN trained on grayscale ASL alphabet images.
-- `resnet_aug2.h5`: Saved model file of the ResNet50-based model trained on augmented RGB ASL alphabet images.
 - `image1.jpeg`: Sample image for prediction testing.
 - `cnn_model_history.json`: saved history file for CNN model
 - `resnet_model_history.json`: Saved history file for ResNet50
@@ -33,8 +31,8 @@ Link to dataset - https://www.kaggle.com/datasets/ayuraj/american-sign-language-
     •    Perform label encoding and convert categorical labels into one-hot encoded vectors 
     •    Split the dataset into training and testing sets using train_test_split as done for CNN.
 ## Model Training
-- The CNN model (`cnn_model.h5`) is trained using grayscale ASL images and augmented using Keras' `ImageDataGenerator`.
-- The ResNet50-based model (`resnet_aug2.h5`) is trained on augmented RGB ASL images.
+- The CNN model is trained using grayscale ASL images and augmented using Keras' `ImageDataGenerator`.
+- The ResNet50-based model is trained on augmented RGB ASL images.
 
 ### Usage
 - Use `predict_label()` function  to predict the label of an uploaded ASL image.
